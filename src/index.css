@@ -1,0 +1,83 @@
+/* Accordion Container Styling */
+.accordion-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fdfdfd;
+  font-family: Arial, sans-serif;
+}
+
+.accordion-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Accordion Item Styling */
+.accordion {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.accordion-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.accordion-item.open {
+  border-color: #007bff;
+  box-shadow: 0px 4px 8px rgba(0, 123, 255, 0.2);
+}
+
+/* Accordion Header */
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f7f7f7;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.accordion-header:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-question {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0;
+  color: #333;
+}
+
+/* Accordion Toggle Button */
+.accordion-toggle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.accordion-toggle:hover {
+  transform: scale(1.2);
+}
+
+/* Accordion Answer */
+.accordion-answer {
+  padding: 1rem;
+  font-size: 1rem;
+  color: #555;
+  background-color: #fdfdfd;
+  border-top: 1px solid #ddd;
+  line-height: 1.5;
+}
